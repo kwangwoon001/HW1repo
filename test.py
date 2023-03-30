@@ -1,6 +1,6 @@
 def print_hello(amount):
-    for _ in range(amount):
-        print("Hello World!")
+    for i in range(amount):
+        print("Line {}: Hello World!".format(i+1))
 
 def print_bye():
     print("Good Bye...")
