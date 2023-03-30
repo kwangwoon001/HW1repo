@@ -1,3 +1,7 @@
+def print_hello(amount):
+    for _ in range(amount):
+        print("Hello World!")
+
 if __name__ == "__main__":
     num = int(input("Enter a number: "))
-    print("Your number is ", num)
+    print_hello(num)
